@@ -5,6 +5,7 @@ import App from "./App";
 import { StyledEngineProvider } from "@mui/material";
 import {  ThemeProvider } from "@mui/material";
 import { theme } from "./theme";
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,3 +17,5 @@ root.render(
     </ThemeProvider>
   </React.StrictMode>
 );
+
+serviceWorkerRegistration.register();
