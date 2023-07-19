@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, IconButton, MenuItem, Typography, Menu as Drop } from "@mui/material";
+import { Box, IconButton, MenuItem, Typography, Menu as Drop, Button } from "@mui/material";
 import {Twitter,GitHub,Instagram,Menu} from "@mui/icons-material";
 import logo from '../../assets/logo.png'
 
@@ -39,13 +39,13 @@ export default function NavBar() {
 
       {/* Right Side */}
       <Box className="sm:flex hidden items-center">
-        <IconButton className="mx-1">
+        <IconButton className="mx-1" aria-label="Twitter">
             <Twitter className="text-base text-black" />
         </IconButton>
-        <IconButton className="mx-1">
+        <IconButton className="mx-1" aria-label="GitHub">
             <GitHub className="text-base text-black" />
         </IconButton>
-        <IconButton className="mx-1">
+        <IconButton className="mx-1" aria-label="Instagram">
             <Instagram className="text-base text-black" />
         </IconButton>
       </Box>

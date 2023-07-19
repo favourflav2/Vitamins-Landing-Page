@@ -15,23 +15,23 @@ export default function Location() {
 
     const arr = [
         {
-            img:gym,
+            img:"https://images.unsplash.com/photo-1534438097545-a2c22c57f2ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
             desc: "4717 Lonely Oak Drive Mobile, Alabama 36575"
         },
         {
-            img:gym1,
+            img:"https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
             desc: "3331 West Fork Street Miles City, Montana 12375"
         },
         {
-            img:gym2,
+            img:"https://images.unsplash.com/photo-1637666218229-1fe0a9419267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
             desc: "1425 Hall Street Las Vegas, Nevada 89121"
         },
         {
-            img:gym3,
+            img:"https://images.unsplash.com/photo-1623874514711-0f321325f318?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
             desc: "3473 Mason Hill Los Angeles, California 32398"
         },
         {
-            img:gym4,
+            img:"https://images.unsplash.com/photo-1637666062717-1c6bcfa4a4df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
             desc: "5601 Greenville Ave Stockton, California 18964"
         },
        
@@ -52,7 +52,7 @@ export default function Location() {
         
         <Box className='flex items-center mt-8 mb-4'>
             <Typography>Discover our showcase</Typography>
-            <IconButton>
+            <IconButton aria-label='View All Locations'>
                 <NavigateNextIcon className='text-black'/>
             </IconButton>
         </Box>

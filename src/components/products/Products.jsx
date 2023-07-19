@@ -6,7 +6,7 @@ import cbd from "../../assets/cbd.jpg"
 import pills from "../../assets/pills.jpg"
 
 export default function Products() {
-    const arr =[{img:protein, desc:"Protein Shake"},{img:cbd, desc:"Cbd Oil"},{img:pills, desc:"Supplements & Vitamins"}]
+    const arr =[{img:"https://images.unsplash.com/photo-1584116831289-e53912463c35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80", desc:"Protein Shake"},{img:"https://images.unsplash.com/flagged/photo-1564833125683-b9fde4516274?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80", desc:"Cbd Oil"},{img:"https://images.unsplash.com/photo-1528272252360-5efd274e36fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80", desc:"Supplements & Vitamins"}]
   return (
     <Box className="w-full min-h-[600px]  flex flex-col sm:mt-[50px] mt-14 mb-20">
         

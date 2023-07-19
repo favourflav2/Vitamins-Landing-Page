@@ -6,7 +6,7 @@ export default function Card({item}) {
     <Box className=" sm:h-[510px] flex flex-col rounded-3xl border-4 border-gray-300">
             
             {/* Image */}
-            <img src={item.img} alt="" className='object-cover sm:min-h-[300px] md:min-h-[250px] lg:min-h-[250px] xl:min-h-[300px] rounded-t-[20px] ' />
+            <img src={item.img} alt="" className='object-cover  sm:min-h-[300px] md:min-h-[250px] lg:min-h-[250px] xl:min-h-[300px] rounded-t-[20px] ' />
 
             {/* Title and Desc */}
             <Box className="w-full h-full flex flex-col px-4 mt-2">

@@ -44,7 +44,7 @@ export default function Hero() {
       {/* Right Side */}
       <Box className="w-[50%] sm:block hidden">
         <img
-          src={heroPic}
+          src="https://images.unsplash.com/photo-1620755848138-dd2cbb2781c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
           alt=""
           className="w-full h-full object-cover rounded-3xl"
         />
@@ -57,7 +57,7 @@ export default function Hero() {
         {/* Card */}
         <Box className="w-full h-full group">
           <Box className="relative overflow-hidden w-full h-full">
-            <img src={heroPic} alt="" className="w-full h-full object-cover rounded-2xl"/>
+            <img src="https://images.unsplash.com/photo-1620755848138-dd2cbb2781c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="" className="w-full h-full object-cover rounded-2xl"/>
             <Box className="absolute h-full w-full flex flex-col justify-center items-center top-0 group-hover:bg-black/60 transition-all duration-300 opacity-0 group-hover:opacity-100">
               {/* Header */}
               <Typography className=" font-bold text-3xl text-gray-100 mb-5 p-3">

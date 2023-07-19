@@ -45,7 +45,7 @@ export default function CEO() {
 
                 {/* right side */}
                 <Box className="w-[50%]  p-3">
-                    <img src={ceo} alt="" className='w-full h-full object-cover'/>
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="" className='w-full h-full object-cover'/>
                 </Box></>) 
 
                 : 
@@ -56,7 +56,7 @@ export default function CEO() {
                     <Typography className=' text-gray-500'>Id ipsa odit ea libero doloremque et ipsum dolor et esse autem non molestiae fugit non rerum dicta qui temporibus fugit. Aut dolorem autem sit tempore dignissimos non internos blanditiis quo esse veritatis nam asperiores quas sit inventore earum qui numquam assumenda! Eos beatae sequi et corrupti quia aut nostrum impedit sit impedit ducimus? Ut facere harum aut debitis consequatur quo esse voluptas in modi sequi.</Typography>
 
                     <Box className="flex items-center justify-center w-full p-5">
-                    <img src={ceo} alt="" className='object-cover w-[300px] max-h-[500px]'/>
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="" className='object-cover w-[300px] max-h-[500px]'/>
                     </Box>
 
                     <Box className="flex w-full mt-10 ">
